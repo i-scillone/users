@@ -1,0 +1,4 @@
+CREATE TABLE `users` (
+  `name` VARCHAR(80) NOT NULL PRIMARY KEY,
+  `role` ENUM('a','u') DEFAULT 'u'
+) DEFAULT CHARACTER SET = 'utf8';

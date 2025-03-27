@@ -1,0 +1,14 @@
+<IfModule auth_ntlm_module>
+    AuthName "Credenziali ministeriali (ADN)"
+    AuthType SSPI
+    NTLMAuth On
+    NTLMAuthoritative On
+    <RequireAll>
+        <RequireAny>
+            Require valid-user
+        </RequireAny>
+        <RequireNone>
+            Require user "ANONYMOUS LOGON"
+        </RequireNone>
+    </RequireAll>
+</IfModule>
