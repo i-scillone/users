@@ -71,7 +71,6 @@ try {
     <table class="table bordered">
         <tr><th>Nome</th><th>Ruolo</th><th></th></tr>
 <?php
-var_dump($_POST);
 $r=$db->query('SELECT * FROM users');
 echo "";
 foreach ($r as $row) {
