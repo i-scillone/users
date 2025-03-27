@@ -12,7 +12,7 @@ Il file di configurazione (config.json) ha il seguente formato…
 
 `server` è l'indirizzo dell'AD (o server LDAP),
 
-`dir` è la subdirectory in cui cercare
+`dir` è la subdirectory in cui cercare,
 
 `user` serve quando non è consentito l'accesso anonimo all'AD,
 
